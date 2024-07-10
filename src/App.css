@@ -1,0 +1,16 @@
+.app-container {
+    width: 100%;
+    max-width: 375px; /* Max width for mobile view */
+    margin: 0 auto;
+    height: 100%;
+    background-color: #fff; /* Optional: to give a white background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: to add a shadow effect */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media (min-width: 768px) {
+    .app-container {
+      border-radius: 10px; /* Optional: to add rounded corners on larger screens */
+    }
+  }

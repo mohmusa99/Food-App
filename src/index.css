@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    background-color: #f8f8f8; /* Optional: to give some background color */
+  }
+  
+  #root {
+    width: 100%;
+    max-width: 375px; /* Max width for mobile view */
+    height: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: to add a shadow effect */
+    background-color: #fff; /* Optional: to give a white background */
+  }
+  
+  @media (min-width: 768px) {
+    #root {
+      border-radius: 10px; /* Optional: to add rounded corners on larger screens */
+    }
+  }
