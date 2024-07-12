@@ -2,11 +2,14 @@
     width: 100%;
     max-width: 375px; /* Max width for mobile view */
     margin: 0 auto;
+    padding: 20px;
     height: 100%;
     background-color: #fff; /* Optional: to give a white background */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: to add a shadow effect */
     display: flex;
     flex-direction: column;
+    overflow-y: auto;
+    scrollbar-width: none;
   }
   
   @media (min-width: 768px) {
