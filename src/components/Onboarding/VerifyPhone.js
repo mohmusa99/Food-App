@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import axios from 'axios';
 import { FaChevronLeft } from "react-icons/fa";
 import { Link, useNavigate } from 'react-router-dom';
 import 'react-phone-number-input/style.css';
@@ -68,43 +67,8 @@ const VerifyPhone = () => {
       return;
     }
     console.log("OTP", { otp });
-    navigate('/home');
+    navigate('/next-step');
   };
-
-  // const handlePhoneNumberSubmit = async () => {
-  //   if (!phoneNumber) {
-  //     alert("Please enter a valid phone number");
-  //     return;
-  //   }
-  //   try {
-  //     const response = await axios.post('http://localhost:5000/send-otp', { phoneNumber });
-  //     if (response.data.success) {
-  //       setStep(2);
-  //     }
-  //   } catch (error) {
-  //     console.error('Error sending OTP', error);
-  //   }
-  // };
-
-
-  // const handleOtpSubmit = async () => {
-  //   if (otp.length !== 4) {
-  //     alert("Please enter a valid 4-digit OTP");
-  //     return;
-  //   }
-  //   try {
-  //     const response = await axios.post('http://localhost:5000/verify-otp', { phoneNumber, otp });
-  //     if (response.data.success) {
-  //       navigate('/home');
-  //     } else if (otp.length !== 4) {
-  //       alert('Enter a valid OTP');
-  //     } else {
-  //       alert('Invalid OTP')
-  //     }
-  //   } catch (error) {
-  //     console.error('Error verifying OTP', error);
-  //   }
-  // };
   const handleOtpChange = (otp) => {
     if (/^\d*$/.test(otp)) {
       setOtp(otp);
