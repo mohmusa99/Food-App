@@ -16,7 +16,6 @@ const Walkthrough = () => {
         if (stepIndex < steps.length - 1) {
             setStepIndex(stepIndex + 1);
         } else {
-            console.log("Navigating to sign in");
             navigate ("/onboarding/signin");
         }
     };

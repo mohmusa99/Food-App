@@ -26,17 +26,17 @@ body {
   
   #root {
     width: 100%;
-    max-width: 375px; /* Max width for mobile view */
+    /* max-width: 375px;  */
     height: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: to add a shadow effect */
     background-color: #fff; /* Optional: to give a white background */
   }
   
-  @media (min-width: 768px) {
+  /* @media (min-width: 768px) {
     #root {
-      border-radius: 10px; /* Optional: to add rounded corners on larger screens */
+      border-radius: 10px; 
     }
-  }
+  } */
 
   .step-indicator {
     display: flex;

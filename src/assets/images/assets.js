@@ -4,6 +4,7 @@ import Logo from './g12.png'
 import Favourites from './favorites.png'
 import Delivery from './delivery.png'
 import Menu from './Menu.png'
+import OpenDoodles from './open-doodles.png'
 
 export const Assets = {
     BgCircle : BgCircle,
@@ -11,5 +12,6 @@ export const Assets = {
     Logo : Logo,
     Favourites : Favourites,
     Delivery : Delivery,
-    Menu : Menu
+    Menu : Menu,
+    OpenDoodles: OpenDoodles
 }

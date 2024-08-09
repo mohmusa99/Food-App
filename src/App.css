@@ -1,6 +1,6 @@
 .app-container {
     width: 100%;
-    max-width: 375px; /* Max width for mobile view */
+    /* max-width: 375px;  */
     margin: 0 auto;
     padding: 20px;
     height: 100%;
@@ -14,6 +14,6 @@
   
   @media (min-width: 768px) {
     .app-container {
-      border-radius: 10px; /* Optional: to add rounded corners on larger screens */
+      border-radius: 10px;
     }
   }

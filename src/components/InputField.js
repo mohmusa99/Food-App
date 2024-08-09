@@ -18,7 +18,7 @@ const Label = styled.label`
   font-weight: lighter;
   font-size: 12px;
   display: block;
-  color: #E6E6E6;
+  color: #868686;
 `;
 
 const StyledInput = styled.input`
